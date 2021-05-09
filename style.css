@@ -1,0 +1,13 @@
+.leftside, .rightside {
+  height:100vh;
+  width:50%;
+
+}
+
+.leftside {
+  background-color: grey;
+}
+
+.rightside {
+  background:white;
+}
