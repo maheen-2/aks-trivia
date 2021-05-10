@@ -1,13 +1,44 @@
 .leftside, .rightside {
   height:100vh;
   width:50%;
+  background-size: cover;
 
 }
 
 .leftside {
   background-color: grey;
+  flex: 1;
+  background-position: center;
 }
 
 .rightside {
-  background:white;
+  background-color: white;
+  flex: 1;
+  background-position: center;
+}
+section{ display: flex;}
+.beginning{
+  width: 50%;
+  height: 100vh;
+  background-color: grey;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  color: blue;
+  align-items: center;
+  align-content: center;
+}
+.welcome {
+  width: 50%;
+}
+.akstrivia {
+  width: 50%;
+}
+.night2021 {
+  width: 50%;
+}
+body {
+  margin: 0
 }
