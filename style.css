@@ -57,10 +57,12 @@ section{ display: flex;
 }
 
 .image {
-  padding-top: 140px;
-  top: 10%;
-  left: 50%;
+  position: relative;
+  left: 1150px;
+  top: 300px;
+
 }
+
 .search-box {
   position: absolute;
   top: 70%;
@@ -84,12 +86,14 @@ section{ display: flex;
   text-shadow: 20px;
 }
 .music {
-  float: right;
+  position: relative;
+  left: 700px;
+  bottom: 170px;
   font-family: 'Raleway', sans-serif;
 }
 .timer {
   float: left;
   font-family: 'Raleway', sans-serif;
-  padding-top: 0px;
+  padding-top: 100px;
   padding-left: 700px;
 }
