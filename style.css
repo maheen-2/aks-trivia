@@ -43,8 +43,8 @@ section{ display: flex;
 }
 .end {
   float: right;
-  padding-top: 160px;
-  padding-right: 200px;
+  padding-top: 140px;
+  padding-right: 150px;
   margin: 0;
   text-align: center;
   top: 50%%;
@@ -55,6 +55,34 @@ section{ display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.image {
+  padding-top: 140px;
+  top: 10%;
+  left: 50%;
+}
+.search-box {
+  position: absolute;
+  top: 70%;
+  left: 64%;
+  height: 20px;
+  border radius: 40px;
+  padding: 10px;
+  background: #3498db;
+}
+.search-btn {
+  padding: 10px;
+  background: #3498db;
+}
+.search-text{
+  background: none;
+  outline: none;
+  padding:0;
+  color: white;
+  font-size: 16px;
+  shadow: 20px;
+  text-shadow: 20px;
+}
 .music {
   float: right;
   font-family: 'Raleway', sans-serif;
@@ -62,7 +90,6 @@ section{ display: flex;
 .timer {
   float: left;
   font-family: 'Raleway', sans-serif;
-  padding-top: 110px;
+  padding-top: 0px;
   padding-left: 700px;
-
 }
